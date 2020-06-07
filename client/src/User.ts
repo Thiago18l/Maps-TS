@@ -1,6 +1,6 @@
 import faker from 'faker';
 
-class User {
+export class User {
     protected name: string;
     protected location: {
         lat: number;
