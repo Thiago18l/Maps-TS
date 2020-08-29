@@ -3,7 +3,7 @@ import faker from 'faker'
 export class Company {
     protected companyName: string;
     protected catchPhrase: string;
-    protected location: {
+    location: {
         lat: number;
         lng: number;
     }
